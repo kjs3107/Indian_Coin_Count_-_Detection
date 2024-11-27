@@ -25,3 +25,38 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/indian-coin-count-detection.git
+
+   Usage
+Prepare an image containing Indian coins that you want to analyze.
+
+Run the detection script:
+
+bash
+Copy code
+python detect_coins.py --image path_to_your_image
+The script will output the total count of coins for each denomination found in the image.
+
+Example output:
+
+makefile
+Copy code
+Detected Coins:
+₹1: 5
+₹2: 3
+₹5: 2
+₹10: 1
+Total Count: 11 Coins
+Results
+This project offers an accurate coin detection and counting mechanism even for images where coins may overlap or be partially visible.
+
+Contributing
+Contributions are welcome! If you'd like to contribute, feel free to fork the repository and submit a pull request with your improvements.
+
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
